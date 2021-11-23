@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
+    color: lightseagreen;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+div {
+	margin: 50px;
+	padding: 50px;
+}
+h1 {
+	font-size: 40;
+}
+
+.emoji {
+	font-size: 30px;
+	cursor: pointer;
+	user-select: none;
+	height: 50vh;
+
+}
+.closed {
+	display: none;
+}
+.open {
+	display: none;
+}
+.active {
+	display: block;
+}
